@@ -4,7 +4,7 @@ import { Link, NavLink } from 'react-router-dom';
 export default function Subnavigation() {
     const initialState = [{
         name: 'Mentor Video',
-        link: '/market/mentor'
+        link: '/mentor'
     }, {
         name: ' Information',
         link: '/market/information'
