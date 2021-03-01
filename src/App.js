@@ -25,11 +25,6 @@ export default class App extends Component {
 
     
   }
-
-  componentDidMount(){
-    console.log('window.loa: ', window.location.pathname);
-  }
-
   render() {
     return (
       <Router>
