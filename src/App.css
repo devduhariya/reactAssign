@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+
+.web-logo {
+  width: 100px;
+  margin: 18px 0 18px 4px;
+}
+
+.web-logo a {
+  display: block;
+}
+
+.right-container {
+  background-color: #f3f4f6;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+}
+
+.details {
+  position: relative;
+  top: -26px;
+}
+
+.list-heading {
+  padding: 9px 0 10px 8px;
+}
+
+.inner-div {
+  /* border: 1px solid lightgray; */
+  min-height: 315px;
+  margin-top: -8px;
+  background: white;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+}
+
+.nav-link.active-link {
+  border-bottom: 4px solid #10ADB9;
+}
+
+.inner-div ul {
+  max-width: 90%;
+}
+
+.inner-div ul li {
+  border: 1px solid #ddd;
+  box-shadow: 0px 2px 1px 0px #9f9f9f;
+  border-radius: 8px;
+  max-height: 45px;
+}
+
+.btn-design {
+  border-radius: 15px;
+  border: 1px solid grey;
+  text-align: center;
+  margin: 20px;
+}
+
+.list-no {
+  height: 44px;
+  display: inline-block;
+  width: 34px;
+  text-align: center;
+  line-height: 44px;
+  background: #D4F5EE;
+  border-radius: 8px;
+}
+
+.nav-link {
+  border-bottom: 4px solid lightgray;
+}
+
+.nav-link:hover {
+  border-bottom: 4px solid #10ADB9;
+  font-weight: 800;
+}
+
+.items-center:active {
+  background-color: #D4F5EE;
+}
+
+.folder::before {
+  content: "\00BB";
+}
+
+.verticle-sub-menu {
+  min-height: 38px;
+}
+
+.menu-items span:last-child {
+  vertical-align: top;
+}
+
+.menu-items span {
+  font-size: 80%;
+}
+
+.menu-name {
+  position: relative;
+}
+
+.menu-name:after {
+  content: '\003E';
+  position: absolute;
+  font-size: 16px;
+  top: 0;
+  right: 0;
+  color: #10ADB9;
+}
+
+.add-file {
+  border: 2px dotted;
+  width: 373px;
+  height: 75px;
+  text-align: center;
+  margin-left: 263px;
+  padding: 12px;
+}
+
+.submit {
+  display: inline-block;
+}
+
+.nav-item1 {
+  min-width: 130px;
+}
+
+.sub-right-section {
+  width: 85%;
+}
+
+.file-input {
+  display: none;
+}
+.hightlight-color{
+  color: #10ADB9;
+}
+.file-upload label {
+  display: block;
+  height: 80px;
+  line-height: 80px;
+  border: 1px dashed #d0d0d0;
+  width: 90%;
+  margin: 10px auto;
+  cursor: pointer;
+}
+.active-menu-link span.list-no{
+  background-color: #10ADB9;
+  color:#fff
+}
